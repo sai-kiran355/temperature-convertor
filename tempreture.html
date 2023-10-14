@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temperature Converter</title>
+<link rel="stylesheet" href="temperature.css">
+
+
+</head>
+
+<body style="background-image: url('background.jpg');">
+<h1 class="heading">Temperature Converter</h1>
+<form class="container">
+<p>
+<label for="degree">Degree: </label>
+<input type="text" name="degree" id="degree" placeholder="ENTER DEGREE" autocomplete="on" required autofocus>
+</p>
+<p>
+<label for="temperaturetype">From: </label>
+<select name="temperaturetype" id="input">
+<option value="celsius">CELSIUS</option>
+<option value="fahrenheit">FAHRENHEIT</option>
+<option value="kelvin">KELVIN</option>
+</select>
+</p>
+ 
+<p>
+<label for="temperaturetype1">To:</label>
+<select name="temperaturetype1" id="output">
+<option value="fahrenheit">FAHRENHEIT</option>
+<option value="celsius">CELSIUS</option>
+<option value="kelvin">KELVIN</option>
+</select>
+</p>
+<p>
+<label for="result">Your Result: </label>
+<input class="result" type="text" name="result" id="result" disabled>
+</p>
+<input type="button" value="CONVERT" onclick="convertTemperature()">
+</form>
+<script src="temprature.js"></script>
+</body>
+</html>
