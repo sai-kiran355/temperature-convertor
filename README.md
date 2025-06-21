@@ -7,7 +7,9 @@ It allows users to convert temperature values between Celsius, Fahrenheit, and K
 
 ## 🖼️ Preview
 
-![Temperature Converter](Temperature Converter.png)
+![Temperature Converter](temperature-convertor
+/Temperature Converter.png
+)
 
 ---
 
